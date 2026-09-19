@@ -1,0 +1,106 @@
+{
+  "collections": [
+    {
+      "collectionId": "classes",
+      "description": "Stored class data including students and raw excel data",
+      "fields": [
+        {
+          "description": "Unique name of the class",
+          "name": "className",
+          "type": "string"
+        },
+        {
+          "description": "Grade level (1-5)",
+          "name": "gradeLevel",
+          "type": "number"
+        },
+        {
+          "description": "Timestamp of last modification",
+          "name": "lastModified",
+          "type": "number"
+        },
+        {
+          "description": "Array of student data",
+          "name": "students",
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "collectionId": "templates",
+      "description": "Subject comment templates",
+      "fields": [
+        {
+          "name": "gradeLevel",
+          "type": "number"
+        },
+        {
+          "name": "subject",
+          "type": "string"
+        },
+        {
+          "name": "range",
+          "type": "string"
+        },
+        {
+          "name": "templates",
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "collectionId": "nlpc_templates",
+      "description": "NLPC (Capacity and Quality) templates",
+      "fields": [
+        {
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "name": "gradeLevel",
+          "type": "number"
+        },
+        {
+          "name": "level",
+          "type": "string"
+        },
+        {
+          "name": "templates",
+          "type": "array"
+        }
+      ]
+    },
+    {
+      "collectionId": "settings",
+      "description": "User specific settings",
+      "fields": [
+        {
+          "name": "userId",
+          "type": "string"
+        },
+        {
+          "name": "lastActiveModule",
+          "type": "string"
+        },
+        {
+          "name": "lastSelectedGrade",
+          "type": "number"
+        }
+      ]
+    },
+    {
+      "collectionId": "users",
+      "description": "User roles and metadata",
+      "fields": [
+        {
+          "name": "email",
+          "type": "string"
+        },
+        {
+          "name": "role",
+          "type": "string"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "NHẬN XÉT HỌC SINH CẤP TIỂU HỌC",
+  "description": "Ứng dụng hỗ trợ giáo viên nhận xét học sinh tự động theo thông tư 27 sử dụng Gemini AI.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
